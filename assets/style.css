@@ -18,6 +18,7 @@ h1,h3, h4{
 /*Logo*/
 #app_name {
     color:#fc0;
+    font-size: 10px;
 }
 
 /*==========================================================================================================*/
@@ -213,14 +214,14 @@ footer.page-footer {
     font-size: 100px;
 }
 
-#syntatic {
+#syntactic {
     padding-right: 50px;
     margin-top:100px;
 }
 
 #slippery {
     padding-left: 50px;
-    margin-top:100px;git add
+    margin-top:100px;
 }
 
 #sugar {
@@ -257,48 +258,10 @@ td, th{
     margin-top: 0px;
 }
 
+
+
+
 /*==========================================================================================================*/
-/*Media Queries VIP*/
-
-/* change h1 position depending on screen size */
-@media only screen and (min-width: 500px) {
-    h1 {
-        margin-top: 3%;
-        margin-bottom: 0%;
-    }
-}
-
-/* change carousel position depending on screen size */
-@media only screen and (min-width: 500px) {
-    .carousel {
-        margin-top: 5%;
-    }
-}
-
-/* change form size depending on screen size */
-@media only screen and (min-width: 500px) {
-    form {
-        width: 40%;
-        margin-left: 30%;
-    }
-}
-
-/* change check in button size depending on screen size */
-@media only screen and (min-width: 500px) {
-    #mark_present_btn {
-        width: 10%;
-    }
-}
-
-/* scroll height reduced when viewing on mobile | attendance check in button is now easily accessible at first glance | will prevent user from having to scroll down to log in | no risk of getting tied up in the scroll */
-@media only screen and (max-width: 500px) {
-    #table {
-        height:200px;;
-    }
-}
-
-
-
 
 footer.page-footer{
     margin-top:.5%;
@@ -377,6 +340,46 @@ input[type=text]{
     background-color:#a71616;
 }
 
+
+/*==========================================================================================================*/
+/*Media Queries VIP*/
+
+/* change h1 position depending on screen size */
+@media only screen and (min-width: 500px) {
+    h1 {
+        margin-top: 3%;
+        margin-bottom: 0%;
+    }
+}
+
+/* change carousel position depending on screen size */
+@media only screen and (min-width: 500px) {
+    .carousel {
+        margin-top: 5%;
+    }
+}
+
+/* change form size depending on screen size */
+@media only screen and (min-width: 500px) {
+    form {
+        width: 40%;
+        margin-left: 30%;
+    }
+}
+
+/* change check in button size depending on screen size */
+@media only screen and (min-width: 500px) {
+    #mark_present_btn {
+        width: 10%;
+    }
+}
+
+/* scroll height reduced when viewing on mobile | attendance check in button is now easily accessible at first glance | will prevent user from having to scroll down to log in | no risk of getting tied up in the scroll */
+@media only screen and (max-width: 500px) {
+    #table {
+        height:200px;;
+    }
+}
 
 
 
