@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Check In Application</title>
+    <meta name="viewport" content="width=device-width">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/style.css" type="text/css"/>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <div class="nav-wrapper">
+            <a id="app_name" href="#!" class="brand-logo">Check In</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <!--Desktop nav-->
+            <ul class="right hide-on-med-and-down">
+                <li><a href="home_view.html">Home</a></li>
+                <li><a href="attendance_view.html">Attendance</a></li>
+                <li><a href="homework_view.html">Homework</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Feedback</a></li>
+                <li><a href="#">Career</a></li>
+                <li><a href="landing_view.html">Log Out</a></li>
+            </ul>
+            <!--Mobile slideout nav-->
+            <ul class="side-nav" id="mobile-demo">
+                <!--User profile-->
+                <li>
+                    <div class="userView">
+                        <a href="#!user"><img src="../assets/student.png"></a>
+                        <a href="#!name"><span class="white-text name">Nick Delpino</span></a>
+                        <a href="#!email"><span class="white-text email">nbdelpino1@yahoo.com</span></a>
+                    </div>
+                </li>
+                <!--Links to various views-->
+                <li class="clearfix"><a href="home_view.html"><i class="material-icons">home</i>Home</a></li>
+                <li class="clearfix"><a href="attendance_view.html"><i class="material-icons">schedule</i>Attendance</a></li>
+                <li class="clearfix"><a href="homework_view.html"><i class="material-icons">assignment</i>Homework</a></li>
+                <li class="clearfix"><a href="#!"><i class="material-icons">group_work</i>Projects</a></li>
+                <li class="clearfix"><a href="#!"><i class="material-icons">comment</i>Feedback</a></li>
+                <li class="clearfix"><a href="#!"><i class="material-icons">work</i>Career</a></li>
+                <li class="clearfix"><a href="landing_view.html"><i class="material-icons">done</i>Log Out</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<!--main content | this is the only section that will change as the user navigates the application-->
+<main>
+    <div class="container">
+        <div class="row" id="bench">
+            <div class="col s12 m12 center-align" id="chair">
+                <i aria-hidden="true" class="fa fa-clock-o fa-4x"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m12">
+                <h3 class="center-align" id="stool">Time and
+                    Attendance</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m12">
+                <div class="container" id="table">
+                    <table class="highlight">
+                        <thead>
+                        <tr>
+                            <th data-field="data-field=&quot;id&quot;">
+                                Date</th>
+                            <th data-field="name">Time</th>
+                            <th data-field="price">Attendance</th>
+                            <th data-field="price">Notes</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>10/20/2016</td>
+                            <td>6:25pm</td>
+                            <td>On Time</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>10/23/2016</td>
+                            <td>6:25pm</td>
+                            <td>On Time</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>10/26/2016</td>
+                            <td>9:25am</td>
+                            <td>On Time</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>10/29/2016</td>
+                            <td>7:25pm</td>
+                            <td>Late</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>10/29/2016</td>
+                            <td>7:25pm</td>
+                            <td>Late</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>10/29/2016</td>
+                            <td>7:25pm</td>
+                            <td>Late</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>10/29/2016</td>
+                            <td>7:25pm</td>
+                            <td>Late</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>10/29/2016</td>
+                            <td>7:25pm</td>
+                            <td>Late</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>10/29/2016</td>
+                            <td>7:25pm</td>
+                            <td>Late</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>10/29/2016</td>
+                            <td>7:25pm</td>
+                            <td>Late</td>
+                            <td></td>
+                        </tr><!--rows added to test scroll-->
+                        <tr>
+                            <td>10/26/2016</td>
+                            <td>9:25am</td>
+                            <td>On Time</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>10/29/2016</td>
+                            <td>7:25pm</td>
+                            <td>Late</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>10/29/2016</td>
+                            <td>7:25pm</td>
+                            <td>Late</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>10/29/2016</td>
+                            <td>7:25pm</td>
+                            <td>Late</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>10/29/2016</td>
+                            <td>7:25pm</td>
+                            <td>Late</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>10/29/2016</td>
+                            <td>7:25pm</td>
+                            <td>Late</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>10/29/2016</td>
+                            <td>7:25pm</td>
+                            <td>Late</td>
+                            <td></td>
+                        </tr><!--rows added to test scroll-->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row center-align">
+            <div class="col s12 m12">
+
+                <button class="wbtn waves-effect waves-#f57c00" id="mark_present_btn" type="submit">Login</button>
+            </div>
+        </div>
+
+    </div>
+</main>
+<!--main content | this is the only section that will change as the user navigates the application-->
+
+<footer class="page-footer">
+    <div class="container">
+        <!--Links to information relevant to class/school-->
+        <div class="row">
+            <!--School website-->
+            <div id="school_website_col" class="col s12 m4 center-align">
+                <i class="Meduim material-icons" id="swc">school</i>
+                <h6>School News</h6>
+                <p>Check out what's happening on campus by checking out our school website. See the lattests news and events by visiting <a href="http://www.ucf.edu/">www.ucf.edu</a></p>
+            </div>
+            <!--Technology website-->
+            <div id="tech_website_col" class="col s12 m4 center-align">
+                <i class="Medium material-icons" id="twc">laptop</i>
+                <h6>Technology News</h6>
+                <p>Technology is ever changing. Be ahead of the curve! Keep in the know about the latest technology news and trends by checking out <a href="https://techcrunch.com/2016/01/13/1261560/">tech_crunch</a></p>
+            </div>
+            <!--Contact info-->
+            <div id="contact_info_col" class="col s12 m4 center-align">
+                <i class="Medium material-icons" id="cic">chat</i>
+                <h6>Contact Info</h6>
+                <p>Phone: (407) 823-2000</p>
+                <p>Slack: <a href="https://slack.com/">UCF Coding Bootcamp</a></p>
+            </div>
+        </div>
+        <!--Links to social media relevant to class/school-->
+        <div class="row">
+            <div id="mediaIcons" class="col s12 m12 center-align">
+                <!--Twitter-->
+                <a id="twitter" target="_blank" title="follow me on twitter" href="https://twitter.com/UCF?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img alt="follow me on twitter" src="//login.create.net/images/icons/user/twitter-b_30x30.png" border=0></a>
+                <!--Facebook-->
+                <a id="facebook"target="_blank" title="find us on Facebook" href="https://www.facebook.com/UCF/"><img alt="follow me on facebook" src="//login.create.net/images/icons/user/facebook_30x30.png" border=0></a>
+                <!--Instagram-->
+                <a id="instagram" target="_blank" title="follow me on instagram" href="https://www.instagram.com/ucf.knights/"><img alt="follow me on instagram" src="https://c866088.ssl.cf3.rackcdn.com/assets/instagram30x30.png" border=0></a>
+                <!--Slack-->
+                <a id="slkcnt" target="_blank" title="follow me on slack" href="https://slack.com/"><img alt="message instructor with slack" src="../assets/slkcnt.png" border=0></a>
+            </div>
+
+        </div>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+<!--Temporary JS file for page actions i.e slide out menu && collection pop out-->
+<script type="text/javascript" src="../assets/effects.js"></script>
+
+</body>
+
+</html>
+
