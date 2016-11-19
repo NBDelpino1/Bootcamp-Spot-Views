@@ -7,17 +7,14 @@ $(document).ready(function() {
             closeOnClick: true
         }
     );
-    $(".dropdown-button").dropdown();
+    // $(".dropdown-button").dropdown();
 
 });
-
 
 // Show sideNav
 $('.button-collapse').sideNav('show');
 // Hide sideNav
 $('.button-collapse').sideNav('hide');
-
-
 
 $(document).ready(function(){
     $('.carousel').carousel();
