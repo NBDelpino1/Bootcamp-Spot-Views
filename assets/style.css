@@ -324,3 +324,10 @@ input[type=text] {
     margin-right: 15px;
     margin-top: 15px;
 }
+
+
+/*PADD SIDES*/
+nav .nav-wrapper {
+    padding-left: 10px;
+    padding-right:10px;;
+}
