@@ -1,0 +1,261 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/* UCF TEXT COLOR  */
+.ucf_text_clr {
+    color: #fc0;
+}
+
+/* UCF BACKGROUND COLOR  */
+.ucf_bkgrd_clr {
+    background-color: #fc0;
+}
+
+.ucf_btn_clr {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#febf04+0,ffd65e+100 */
+    /*background: #febf04; !* Old browsers *!*/
+    /*background: -moz-linear-gradient(top,  #febf04 0%, #ffd65e 100%); !* FF3.6-15 *!*/
+    background: -webkit-linear-gradient(top,  #febf04 0%,#ffd65e 100%); /* Chrome10-25,Safari5.1-6 */
+    /*background: linear-gradient(to bottom,  #febf04 0%,#ffd65e 100%); !* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!*/
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febf04', endColorstr='#ffd65e',GradientType=0 ); /* IE6-9 */
+
+}
+
+.top_pad {
+     padding-top: 75px;
+ }
+
+.top_pad2 {
+    padding-top: 30px;
+}
+
+/*REMOVE ROW MARGIN*/
+.rmv_top_mgn {
+    margin-top: 0;
+}
+
+
+/*SCROLL EFFECT FOR TABLES*/
+
+.scroll {
+    height: 400px;
+    overflow: auto
+}
+/*=================================================================================================================*/
+/* LINKS */
+/*=================================================================================================================*/
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+/*=================================================================================================================*/
+/*BUTTONS*/
+/*=================================================================================================================*/
+/*CHECK IN BUTTON*/
+#checkin_btn {
+    color: black;
+    border:solid 1px #febf05;
+    width:250px;
+    margin-top:10px;
+}
+
+/*CHECK IN BUTTON ON HOVER*/
+#checkin_btn:hover {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a5c956+0,cdeb8e+100 */
+    background: #a5c956; /* Old browsers */
+    background: -moz-linear-gradient(top,  #a5c956 0%, #cdeb8e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #a5c956 0%,#cdeb8e 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #a5c956 0%,#cdeb8e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a5c956', endColorstr='#cdeb8e',GradientType=0 ); /* IE6-9 */
+
+    color: black;
+    border-color:#a5c956;
+}
+
+
+
+
+/*=================================================================================================================*/
+/* ICONS */
+/*=================================================================================================================*/
+
+i.large {
+    font-size: 150px;
+}
+
+
+.footer_icon {
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+/*=================================================================================================================*/
+/* NAVBAR */
+/*=================================================================================================================*/
+
+/*PADD SIDES*/
+nav .nav-wrapper {
+    padding-left: 10px;
+    padding-right:10px;;
+}
+
+/*NAVBAR LINK COLOR*/
+nav ul a, .side-nav a, nav .button-collapse i,
+.side-nav li>a>i, .side-nav li>a>[class^="mdi-"],
+.side-nav li>a>[class*="mdi-"],
+.side-nav li>a>i.material-icons{
+    color: #fc0;
+}
+
+
+/*=================================================================================================================*/
+/* LANDING */
+/*=================================================================================================================*/
+
+/*LOGIN & REGISTER TEXT STYLE*/
+.login_reg_text {
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-top: 0px;
+}
+
+
+
+/*=================================================================================================================*/
+/* FOOTER */
+/*=================================================================================================================*/
+footer.page-footer {
+    /*background-color: #fc0;*/
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffd65e+0,febf04+100;Yellow+3D+%232 */
+    background: #ffd65e; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffd65e 0%, #febf04 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #ffd65e 0%,#febf04 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #ffd65e 0%,#febf04 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd65e', endColorstr='#febf04',GradientType=0 ); /* IE6-9 */
+
+}
+
+.footer_font {
+    font-size: 12px;
+}
+
+
+
+
+
+
+.rmv_btm_mgn {
+    margin-bottom: 0;
+}
+.rmv_all_pad {
+    padding:0;
+}
+
+
+.sml_txt {
+    font-size:10px
+}
+
+.collapsible-header i {
+    font-size:15px;
+}
+
+.collapsible-header {
+    border:0;
+}
+
+/*PANEL HEADER*/
+.collection.with-header .collection-header {
+    padding:5px;
+    padding-bottom: 0;
+    /*background-color: red;*/
+}
+
+.collapsible {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+
+/*TAB COLLECTION DIV STYLING*/
+.collection.with-header .collection-item {
+    font-size:8px;
+    background-color:black;
+    color: #fc0;
+}
+
+/*TABD INPUT FONT SIZE*/
+.input-field.col .prefix ~ label, .input-field.col .prefix ~ .validate ~ label {
+    font-size:10px;
+}
+
+/*REMOVE ROW MARGIN BOTTOM*/
+.container .row {
+    margin-bottom: 0;
+}
+
+
+/*TAB FORM*/
+.input-field .prefix {
+    color: #fc0;
+}
+
+
+/*TODO TEST THIS FOOTER BAND*/
+.light, footer.page-footer .footer-copyright {
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* change form size depending on screen size */
+@media only screen and (min-width: 500px) {
+    form {
+        width: 40%;
+        margin-left: 30%;
+    }
+}
+
+/* change check in button size depending on screen size */
+@media only screen and (min-width: 500px) {
+    #mark_present_btn {
+        width: 10%;
+    }
+}
+
+/* scroll height reduced when viewing on mobile | attendance check in button is now easily accessible at first glance | will prevent user from having to scroll down to log in | no risk of getting tied up in the scroll */
+@media only screen and (max-width: 500px) {
+    #table {
+        height: 200px;
+    }
+}
+
+/* UCF TEXT COLOR  */
+.ucf_text_clr {
+    color: #fc0;
+}

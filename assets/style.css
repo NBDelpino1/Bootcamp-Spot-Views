@@ -306,3 +306,21 @@ input[type=text] {
         height: 200px;
     }
 }
+
+/* UCF TEXT COLOR  */
+.ucf_text_clr {
+    color: #fc0;
+}
+
+
+/*TODO TEST THIS FOOTER BAND*/
+.light, footer.page-footer .footer-copyright {
+    background-color: transparent;
+}
+
+.footer_icon {
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
