@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Check In Application</title>
+    <title>UCF Index2</title>
     <meta name="viewport" content="width=device-width">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
-    <link rel="stylesheet" href="assets/style.css" type="text/css"/>
+    <link rel="stylesheet" href="assets/style2.css" type="text/css"/>
 </head>
 
 <body>
@@ -45,30 +45,28 @@
     </nav>
 </header>
 
-    <!--main content | this is the only section that will change as the user navigates the application-->
-    <main>
+<main>
+    <div class="container">
         <div class="row">
-            <div class="col s12 m12 center-align">
-                <h3>UCF Coding Hub</h3>
+            <div class="col s12">
+                <div class="carousel ">
+                    <a class="carousel-item" href="https://github.com/UCF-Coding-Boot-Camp/06-16-VW-Class-Content"><img src="assets/github.jpg"></a>
+                    <a class="carousel-item" href="http://www.ucf.edu/"><img src="assets/ucf2.jpg"></a>
+                    <a class="carousel-item" href="https://slack.com/signin"><img src="assets/slack.png"></a>
+                    <a class="carousel-item" href="https://id.heroku.com/login"><img src="assets/heroku.png"></a>
+                    <a class="carousel-item" href="https://www.npmjs.com/"><img src="assets/npm.png"></a>
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="col s12 m12 center-align">
-                <form id="elements_inside_form" class="z-depth-5" action="home_view.html">
-                    <label><b>Username</b></label>
-                    <input type="text" placeholder="" name="uname" required>
-                    <label><b>Password</b></label>
-                    <input type="password" placeholder="" name="psw" required>
-                    <button class="wbtn waves-effect waves-#f57c00" id="login_btn" type="submit">Login</button>
-                    <div>
-                        <input type="checkbox" id="test6" checked="checked" />
-                        <label for="test6">Remember Me</label>
-                    </div>
-                </form>
+            <div class="col s12 center-align">
+                <h1 class=" rmv_top_mgn" >Welcome!</h1>
+                <h4>Coding Students</h4>
             </div>
         </div>
-    </main>
-    <!--main content | this is the only section that will change as the user navigates the application-->
+    </div>
+</main>
+
 
 <footer class="page-footer">
     <div class="container">
@@ -117,9 +115,10 @@
         </div>
     </div>
 </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-    <!--Temporary JS file for page actions i.e slide out menu && collection pop out-->
-    <script type="text/javascript" src="assets/effects.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+<!--Temporary JS file for page actions i.e slide out menu && collection pop out-->
+<script type="text/javascript" src="assets/effects.js"></script>
 
 </body>
 
